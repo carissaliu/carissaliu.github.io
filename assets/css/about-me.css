@@ -1,3 +1,7 @@
+body {
+  font-size: 120%;
+}
+
 h2 {
   line-height: 0%;
   text-align: center;
@@ -47,23 +51,23 @@ h4 {
 }
 
 @media only screen and (max-width: 900px) {
-    #content {
-      width: 90%;
-    }
+  #content {
+    width: 90%;
+  }
 
-    h2 {
-      font-size: 200%;
-    }
-    
-    h3 {
-      font-size: 150%;
-    }
-    
-    h4 {
-      font-size: 90%;
-    }
+  h2 {
+    font-size: 200%;
+  }
+  
+  h3 {
+    font-size: 150%;
+  }
+  
+  h4 {
+    font-size: 90%;
+  }
 
-    body {
-      font-size: 50%;
-    }
+  body {
+    font-size: 50%;
+  }
 }
