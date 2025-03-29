@@ -18,12 +18,6 @@
             text-align: center;
             margin: 1vw;
         }
-
-        @media only screen and (max-width: 800px) {
-            .buttons {
-                font-size: 80%;
-            }
-        }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,41 +27,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <ul class="nav" id="home-nav">
+    <a href="index.html" id="logo">Carissa Liu</a>
+    <ul class="nav">
+        <li><a href="index.html">HOME</a></li>
         <li><a href="academic-portfolio.html">ACADEMIC PORTFOLIO</a></li>
         <li><a href="pr-project-portfolio.html">PR WORK</a></li>
         <li><a href="design.html">DESIGN</a></li>
         <li><a href="photography.html">PHOTOGRAPHY</a></li>
+        <li><a href="about-me.html">ABOUT ME</a></li>
     </ul>
-        <div id="content">
-            <div class="flex-container">
-                <div class="flex-item-portraits">
-                    <img class="portrait" src="assets/images/carissa-portrait.JPG">
-                    <div id="logo">Carissa Liu</div>
-                </div>
-                <div class="flex-item-portraits">
-                    <div id="hello">HELLO!</div>
-                    <div>
-                        I'm a senior at the <span id="annenberg">University of Southern California</span> 
-                        studying gerontology. This website serves as a collection 
-                        of passion projects and professional development experiences 
-                        that reflects my academic and public relations backgrounds.
-                    </div>
-                </div>
-            </div> 
-            <div class="flex-container">
-                <div class="flex-item buttons">
-                    <a href="assets/resume-february-2025-carissa-liu.pdf" target="_blank">
-                        Download My Resume
-                    </a>
-                </div>
-                <div class="flex-item buttons">
-                    <a href="about-me.html">
-                        About Me
-                    </a>
+    <div id="content">
+        <div class="flex-container">
+            <div class="flex-item-portraits">
+                <img class="portrait" src="assets/images/carissa-portrait.JPG">
+            </div>
+            <div class="flex-item-portraits">
+                <div>
+                    <strong>Hello!</strong> My name is Carissa, and I'm a senior at the University 
+                    of Southern California majoring in gerontology. This website serves as  
+                    a collection of passion projects and professional development experiences 
+                    that reflects my academic and public relations backgrounds. I hope you enjoy 
+                    exploring my projects!
                 </div>
             </div>
+        </div> 
+        <div class="flex-container">
+            <div class="flex-item buttons">
+                <a href="assets/resume-february-2025-carissa-liu.pdf" target="_blank">
+                    Download My Resume
+                </a>
+            </div>
+            <div class="flex-item buttons">
+                <a href="about-me.html">
+                    About Me
+                </a>
+            </div>
         </div>
+    </div>
     <br>
     <footer>
         &copy; 2025 by Carissa Liu</a>  
